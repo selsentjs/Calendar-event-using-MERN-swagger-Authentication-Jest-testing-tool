@@ -1,0 +1,121 @@
+/* style.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .rbc-calendar {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rbc-toolbar {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .rbc-btn-group button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .rbc-btn-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  .rbc-event {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .rbc-event:hover {
+    background-color: #218838;
+  }
+  
+  /* Style for the modal */
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-footer button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-footer button:hover {
+    background-color: #0056b3;
+  }
+
+  /* registration and login page */
+ 
+.register-page {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-page {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Card and form styling */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .card input {
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Styling for the link to login page */
+  .card .text-center span {
+    font-size: 0.9rem;
+  }
+  
+  .card .text-center button {
+    color: #007bff;
+  }
+  
+  .card .text-center button:hover {
+    text-decoration: underline;
+  }
+  
+  /* create event page  */
+  
+  .create-event-page {
+    background-color: #f8f9fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-style {
+    padding: "7px";
+    color: "white";
+  }

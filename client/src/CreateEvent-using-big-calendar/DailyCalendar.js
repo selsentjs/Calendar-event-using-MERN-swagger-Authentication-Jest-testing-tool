@@ -93,7 +93,7 @@ const DailyCalendar = () => {
         return;
       }
 
-      const response = await axios.get("http://localhost:5000/api/event", {
+      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/event`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

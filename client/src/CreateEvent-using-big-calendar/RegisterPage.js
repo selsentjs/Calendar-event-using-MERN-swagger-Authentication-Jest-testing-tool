@@ -20,9 +20,10 @@ const RegisterPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/user/register",
+        `${process.env.REACT_APP_BACKEND_URL}/api/user/register`,
         { email, name, password }
       );
+      console.log(response)
       toast.success("Registered successfully!");
       navigate("/login");
     } catch (error) {

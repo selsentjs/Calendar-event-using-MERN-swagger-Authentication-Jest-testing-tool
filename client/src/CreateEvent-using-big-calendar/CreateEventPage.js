@@ -27,9 +27,10 @@ const CreateEventPage = () => {
       return;
     }
 
+    // "http://localhost:5000/api/event"
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/event",
+        `${process.env.REACT_APP_BACKEND_URL}/api/event`,
         {
           title,
           description,

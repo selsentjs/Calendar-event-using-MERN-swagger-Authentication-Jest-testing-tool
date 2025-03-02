@@ -18,8 +18,9 @@ const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      
       // Send login request to the backend
-      const response = await axios.post('http://localhost:5000/api/user/login', { email, password });
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/user/login`, { email, password });
       toast.success("Logged in successfully!");
       // Save the token in localStorage (or cookies)
       localStorage.setItem('token', response.data.token);

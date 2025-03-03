@@ -5,7 +5,10 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "dev": "set NODE_ENV=development&&nodemon app.js",
+    "prod": "set NODE_ENV=production&&nodemon app.js",
+    "seeder": "node utils/seeder.js"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +22,7 @@
     "express": "^4.21.2",
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.10.1",
+    "mongoose": "^8.3.4",
     "nodemon": "^3.1.9",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
